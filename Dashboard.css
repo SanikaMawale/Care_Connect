@@ -1,0 +1,201 @@
+/* ====== GLOBAL ====== */
+body {
+  background: #f5f7fb;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* ====== DASHBOARD LAYOUT ====== */
+.dashboard {
+  min-height: 100vh;
+}
+
+.nav {
+  background: linear-gradient(135deg, #0f4c81, #0b3c6f);
+  color: #fff;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* 🔥 FIX: NAVBAR MENU HORIZONTAL */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav ul li {
+  cursor: pointer;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.nav ul li:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* ====== CONTENT ====== */
+.content {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ====== VIEW TOGGLE BUTTONS ====== */
+.content > div:first-child {
+  margin-bottom: 20px;
+}
+
+.content button {
+  background: #0ea5e9;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.content button:hover {
+  background: #0284c7;
+  transform: translateY(-1px);
+}
+
+/* ====== TWO COLUMN LIST GRID (DoctorSchedule / StaffDashboard) ====== */
+.list-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+/* ====== SECTIONS (CARDS) ====== */
+.section {
+  background: white;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  margin-bottom: 28px;
+}
+
+.section h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+/* ====== LISTS ====== */
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section li {
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section li:last-child {
+  border-bottom: none;
+}
+
+.section span {
+  font-size: 0.95rem;
+  color: #1f2937;
+}
+
+/* ====== ACTION BUTTONS ====== */
+.section li button {
+  background: #ef4444;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-left: 6px;
+}
+
+.section li button:first-child {
+  background: #f59e0b;
+}
+
+.section li button:hover {
+  opacity: 0.9;
+}
+
+/* ====== STATUS BADGES ====== */
+.section span span {
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+/* ====== EMPTY STATE ====== */
+.section li:only-child {
+  border-bottom: none;
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* ====== CALENDAR ====== */
+.fc {
+  background: white;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.fc-toolbar-title {
+  font-size: 1.1rem !important;
+  font-weight: 600;
+}
+
+.fc-button {
+  background: #0ea5e9 !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.fc-button:hover {
+  background: #0284c7 !important;
+}
+
+.fc-event {
+  border-radius: 6px;
+  font-size: 0.75rem;
+  padding: 2px 4px;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 900px) {
+  .list-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 16px;
+  }
+
+  .section {
+    padding: 16px;
+  }
+
+  .nav h1 {
+    font-size: 1.1rem;
+  }
+}
