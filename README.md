@@ -1,21 +1,21 @@
 # Care_Connect
 
-# 🏥 Hospital Management System (MERN Stack)
+#  Hospital Management System (MERN Stack)
 
 A full-stack Hospital Management System built using the MERN stack (MongoDB, Express, React, Node.js).  
 The system supports Staff, Doctors, and Patients, with real-time scheduling, conflict checks, dashboards, and calendar views.
 
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication & Roles
+###  Authentication & Roles
 - Role-based login (Staff / Doctor / Patient)
 - Secure authentication using JWT
 - Role-specific dashboards
 
 ---
 
-### 🧑‍⚕️ Staff Dashboard
+###  Staff Dashboard
 - View total doctors, patients, appointments, and surgeries
 - Book appointments and surgeries
 - Automatic conflict detection (doctor & patient)
@@ -25,19 +25,19 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
 
 ---
 
-### 👨‍⚕️ Doctor Dashboard
+###  Doctor Dashboard
 - View only their own appointments and surgeries
 - Live auto-sync (updates automatically)
 - Status badges:
-  - 🟢 Scheduled
-  - 🟡 Rescheduled
-  - 🔵 Completed
-  - 🔴 Cancelled
+  -  Scheduled
+  -  Rescheduled
+  -  Completed
+  -  Cancelled
 - Clean and minimal UI
 
 ---
 
-### 📅 Doctor Schedule View
+###  Doctor Schedule View
 - Toggle between List View and Calendar View
 - Calendar supports:
   - Monthly
@@ -48,14 +48,14 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
 
 ---
 
-### ⚙️ Smart Automation
+###  Smart Automation
 - Past appointments and surgeries are auto-completed
 - Live status updates without manual refresh
 - Backend conflict checks before booking
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React
@@ -74,5 +74,5 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
