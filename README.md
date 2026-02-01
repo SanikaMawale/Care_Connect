@@ -13,7 +13,7 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
 - Secure authentication using JWT
 - Role-specific dashboards
 
----
+
 
 ###  Staff Dashboard
 - View total doctors, patients, appointments, and surgeries
@@ -23,7 +23,7 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
 - Delete appointments and surgeries
 - Dashboard summary cards
 
----
+
 
 ###  Doctor Dashboard
 - View only their own appointments and surgeries
@@ -35,7 +35,7 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
   -  Cancelled
 - Clean and minimal UI
 
----
+
 
 ###  Doctor Schedule View
 - Toggle between List View and Calendar View
@@ -46,14 +46,14 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
 - Appointments and surgeries displayed together
 - Color-coded events
 
----
+
 
 ###  Smart Automation
 - Past appointments and surgeries are auto-completed
 - Live status updates without manual refresh
 - Backend conflict checks before booking
 
----
+
 
 ##  Tech Stack
 
@@ -72,7 +72,7 @@ The system supports Staff, Doctors, and Patients, with real-time scheduling, con
 - Mongoose
 - JWT Authentication
 
----
+
 
 ##  Project Structure
 
